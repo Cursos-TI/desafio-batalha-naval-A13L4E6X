@@ -1,4 +1,28 @@
-# ⚠️ Importante!!!
+#include <stdio.h>
+
+int main() {
+  int x, y, diferenca;
+
+  printf("Digite o valor de x: ");
+  scanf("%d", &x);
+
+  printf("Digite o valor de y: ");
+  scanf("%d", &y);
+
+  if (x > y) {
+    diferenca = x - y;
+    printf("A diferença entre x e y é: %d\n", diferenca);
+  } else {
+    diferenca = y - x;
+    printf("A diferença entre y e x é: %d\n", diferenca);
+  }
+
+  return 0;
+}
+
+    
+
+    # ⚠️ Importante!!!
 Você pode escolher qualquer um dos desafios para desenvolver. Sinta-se à vontade para começar pelo desafio que mais lhe interessa.
 
 # Desafio Batalha Naval - Três Níveis de Complexidade
